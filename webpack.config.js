@@ -20,7 +20,7 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: path.resolve(__dirname, './'),
+    contentBase: path.resolve(__dirname, './dist'),
     inline: true,
     open: true,
   },
